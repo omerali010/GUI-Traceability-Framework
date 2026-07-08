@@ -1,0 +1,8 @@
+.agents/
+.codex/
+.venv/
+venv/
+__pycache__/
+*.pyc
+tmp_*/
+replication_run/

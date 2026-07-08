@@ -1,0 +1,9 @@
+Model variant,Filter,Requirements,Covered requirements,Widget candidates,Transition candidates,Total candidates,GT-relevant widgets,GT-relevant transitions,Relevant candidate %
+Focus-GPT5,Strict,30,30,969,106,1075,77,99,16.37
+Focus-GPT5,Relaxed,30,30,1690,106,1796,81,99,10.02
+Focus-Gemma3,Strict,30,27,1315,217,1532,129,140,17.56
+Focus-Gemma3,Relaxed,30,27,2207,217,2424,133,140,11.26
+LLMReq-GPT5,Strict,36,36,1852,128,1980,135,108,12.27
+LLMReq-GPT5,Relaxed,36,36,2091,128,2219,141,108,11.22
+LLMReq-Gemma3,Strict,36,30,1547,206,1753,145,142,16.37
+LLMReq-Gemma3,Relaxed,36,30,2292,206,2498,154,142,11.85

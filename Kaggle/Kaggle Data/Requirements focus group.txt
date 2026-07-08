@@ -1,0 +1,59 @@
+RQ1. Given I am on a product page, when I press on "add cart", then a product is added to the cart.
+
+RQ2. Given I am viewing a product, when I enter a specific numerical amount, then exactly that specified quantity is prepared to be added to my cart.
+
+RQ3. Given I have a quantity greater than one selected for a product, when I choose to decrease the quantity, then the number of products to be added to my cart is reduced.
+
+RQ4. Given I am logged in and I am on a product page, when I press on "favorites", then the product will be added to my favorites.
+
+RQ5. Given I am not logged in and I am on a product page, when I press on "add to favorites", then I receive an error stating "Unauthorized, can not add product to your favorite list.".
+
+RQ6. Given I am viewing a list of products, when I select the alphabetical sorting option, then the products are ordered from A to Z.
+
+RQ7. Given I am viewing a list of products, when I select the price sorting option, then the products are ordered sequentially by cost.
+
+RQ8. Given I am viewing a list of products, when I select the sustainability sorting option, then the products are ordered based on how sustainably they are made.
+
+RQ9. Given I am viewing a product catalog, when I select a specific brand from the filters, then only products manufactured by that brand are displayed.
+
+RQ10. Given I am viewing a product catalog, when I apply the sustainability filter, then only products verified as eco-friendly are displayed.
+
+RQ11. Given I am navigating the product catalog, when I select a specific product category filter, then only items belonging to that category are shown.
+
+RQ12. Given I am on any page within the website, when I trigger the homepage link, then I am immediately redirected to the main homepage.
+
+RQ13. Given that the customer is interested in a product listed in the home page, when the customer clicks on the product photo, then the product detail page is loaded.
+
+RQ14. Given I am viewing a product detail page, when I scroll to the related items section, then I am presented with alternative or complementary product options.
+
+RQ15. Given that the user visits the website, when the user hits the "Special Tools" menu item, then the special tools page is shown.
+
+RQ16. Given that the user visits the website, when the user hits the "Rentals" item, then the rental page is shown.
+
+RQ17. Given that the user visits the website, when the user hits the "Power Tools" item, then the Power Tools page is shown.
+
+RQ18. Given I am viewing a paginated list of products, when I click on a specific page number, then I am navigated directly to that specific page of results.
+
+RQ19. Given I am on a paginated list of products past the first page, when I click the previous page button, then I am taken back to the preceding page of products.
+
+RQ20. Given I am viewing a paginated list of products, when I click the next page button, then I am taken forward to the subsequent page of products.
+
+RQ21. Given that the user enters the incorrect credentials on the login page, when the user hits the "login" button, then the user is not logged in to the webpage.
+
+RQ22. Given that the user enters the correct credentials on the login page, when the user hits the "login" button, then the user is logged in to the webpage.
+
+RQ23. Given I am browsing the website, when I select Dutch from the language settings, then the website interface and content translate to Dutch.
+
+RQ24. Given I am browsing the website, when I select Spanish from the language settings, then the website interface and content translate to Spanish.
+
+RQ25. Given I am browsing the website, when I select German from the language settings, then the website interface and content translate to German.
+
+RQ26. Given I am browsing the website, when I select Turkish from the language settings, then the website interface and content translate to Turkish.
+
+RQ27. Given I am browsing the website, when I select French from the language settings, then the website interface and content translate to French.
+
+RQ28. Given I am browsing the website, when I select English from the language settings, then the website interface and content translate to English.
+
+RQ29. Given that the user visits the website, when the user hits the contact us, then the contact form is shown.
+
+RQ30. Given that the user fills the fields of contact form, when the user hits the send button, then the form detail is shared with the customer service.

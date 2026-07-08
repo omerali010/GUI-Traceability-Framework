@@ -1,0 +1,9 @@
+evaluation,ranked_field,gold_scope,includes_linked_transitions,includes_orphan_transitions,includes_resolved_widgets
+actions_all,TopTransitions,"All relevant transition links, including orphan transitions.",yes,yes,no
+actions_with_linked_widget,TopTransitions,Only transition links from rows with Relevance_Type = Linked and a widget identifier.,yes,no,no
+actions_orphan,TopTransitions,Only relevant orphan transitions whose concrete widget ID is not resolved as a widget-tree candidate.,no,yes,no
+widgets_linked_resolved,TopWidgets,Only resolved widget-tree candidates with Relevance_Type = Linked.,no,no,linked only
+widgets_functional_resolved,TopWidgets,Only resolved widget-tree candidates with Relevance_Type = Functional.,no,no,functional only
+widgets_all_resolved,TopWidgets,"All resolved widget-tree candidates, both Linked and Functional.",no,no,yes
+combined_actions_and_linked_widgets,TopMatches,"All relevant transitions, including orphan transitions, plus linked widget candidates only.",yes,yes,linked only
+combined_actions_and_widgets,TopMatches,"All relevant transitions, including orphan transitions, plus all resolved widget-tree candidates.",yes,yes,yes

@@ -1,0 +1,4 @@
+warning,filter_variant,dataset,source_model,count,interpretation
+row_fallback,Strict,Focus,Gemma3,12,Manually annotated widget was not present in the filtered model variant; this can occur when strict filtering removes that widget instance.
+row_fallback,Strict,LLMReq,GPT5,20,Manually annotated widget was not present in the filtered model variant; this can occur when strict filtering removes that widget instance.
+row_fallback,Strict,LLMReq,Gemma3,29,Manually annotated widget was not present in the filtered model variant; this can occur when strict filtering removes that widget instance.

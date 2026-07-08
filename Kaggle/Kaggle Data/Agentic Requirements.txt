@@ -1,0 +1,72 @@
+RQ1. Given the user is on the home or category page, when they choose a sort option from the Sort drop-down, then the product list is reordered accordingly.
+
+RQ2. Given the user types a search term in the Search field and presses the "Search" button, then the catalogue displays products whose names or descriptions match the query.
+
+RQ3. Given a user is browsing products, when they select one or more check boxes under "By category" on the filter panel, then only products belonging to the selected sub-categories are shown.
+
+RQ4. Given a user on the catalogue, when they tick a brand under By brand, then the list displays only items made by the chosen brand.
+
+RQ5. Given a user wants to see eco-friendly products, when they check "Only show eco-friendly products" under Sustainability, then the catalogue hides all products that are not labelled as environmentally friendly.
+
+RQ6. Given the user opens the Categories drop-down in the header, when they select a high-level category, then the application navigates to a dedicated category page listing relevant products.
+
+RQ7. Given a category contains no products (Special Tools), when the user views that category page, then the page clearly states "No products found" instead of showing an empty grid.
+
+RQ8. Given the user navigates to a populated category, then the page displays product cards with images, names, price and CO2 rating.
+
+RQ9. Given the catalogue has more products than fit on one page, when the user clicks the page number buttons at the bottom (1 2 3...) or the left/right arrows, then the next or previous page of products is loaded.
+
+RQ10. Given a product is unavailable, then the product card shows an "Out of stock" message and disables actions to add it to the cart.
+
+RQ11. Given the user clicks a product card, then a detailed page opens showing a large product image, name, brand, price, CO2 rating and descriptive text.
+
+RQ12. Given a user on the product details page, when they click Add to cart, then the selected quantity is added to the shopping cart and the cart icon in the header increments to show the total number of items.
+
+RQ13. Given the user selects Sign in from the header, then a login form appears with fields for email and password, a Google sign-in button, and a password visibility toggle icon.
+
+RQ14. Given an existing user enters a valid email and password and clicks Sign in, then they are authenticated and redirected to their account or the last page they were on.
+
+RQ15. Given the user is viewing a product, when they click Add to favourites, then that product is saved to their favourites or wish-list (available once signed in).
+
+RQ16. Given the user clicks More information under a related product, then the application navigates to the details page for that product.
+
+RQ17. Given the user clicks the cart icon, then they are taken to a checkout wizard consisting of numbered steps: Cart, Sign in, Billing address, Payment.
+
+RQ18. Given the user is on the cart step, when they change the quantity or remove an item, then the cart totals update accordingly.
+
+RQ19. Given the user proceeds from the cart step, when they are not authenticated, then the checkout wizard displays a Sign in step where the user must log in or register before continuing.
+
+RQ20. Given the user has signed in, when they reach the Billing address step, then the page collects shipping and billing details (name, address, city, province, country etc.) similar to the registration form.
+
+RQ21. Given the user completes the billing step, then the Payment step asks for payment information and confirms the order.
+
+RQ22. Given the user has no account, when they click the Register your account link on the login page, then a registration form appears.
+
+RQ23. Given a new user fills in the registration form with required personal details (first name, last name, date of birth, street, postcode, city, province, telephone, email), selects their country from a drop-down, provides a password and submits, then the account is created and the user can log in.
+
+RQ24. Given the registration form, when required fields are left blank or contain invalid data, then the form displays validation errors and prevents submission.
+
+RQ25. Given the user enters a password during registration, then a strength meter updates from Weak to Excellent based on length, uppercase/lowercase letters, numbers and special characters.
+
+RQ26. Given the password field in the registration form, then guidelines are displayed below specifying minimum 8 characters, at least one uppercase and lowercase letter, one number and one special symbol.
+
+RQ27. Given a user has forgotten their password, when they click Forgot password? on the login page, then they are taken to the password reset form.
+
+RQ28. Given the user enters their email on the Forgot password page and clicks Set new password, then the system sends a password-reset link to their email address.
+
+RQ29. Given the user selects Contact in the header, then a contact form appears with fields for first name, last name, email, subject drop-down, message text area and file attachment.
+
+RQ30. Given mandatory fields (first name, email, subject, message) are missing from the contact form, then the form shows error messages and prevents submission.
+
+RQ31. Given the contact form, when the user expands the subject drop-down and chooses a topic, then the selected subject is recorded for the message.
+
+RQ32. Given all required fields are completed of the contact page, when the user clicks Send, then the message is sent and a confirmation appears.
+
+RQ33. Given the user is on any page, then a language selector in the header displays the current locale and a drop-down of other options.
+
+RQ34. Given the language drop-down is open, when the user selects a different language, then the interface text (navigation labels, buttons, form placeholders) switches to that language and persists across pages.
+
+RQ35. Given the user selects Rentals from the categories menu, then the Rentals page displays cards for available items such as Excavator, Bulldozer and Crane with images and descriptive text.
+
+RQ36. Given a rental item card, then the page shows a clear description of the machine and its intended use.
+

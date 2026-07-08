@@ -1,0 +1,8 @@
+# Separate replication environment for stella_en_1_5b_v5_requirements_compare.py.
+numpy==2.3.3
+torch==2.8.0
+sentence-transformers==3.2.1
+transformers==4.57.6
+huggingface-hub==0.36.2
+tokenizers==0.22.1
+peft==0.18.1
